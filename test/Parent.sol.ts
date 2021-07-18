@@ -1,7 +1,6 @@
 import chai from 'chai'
 import { solidity } from 'ethereum-waffle'
 import { ethers } from 'hardhat'
-import { Parent } from '../typechain/Parent'
 
 chai.use(solidity);
 const { expect, assert } = chai;
